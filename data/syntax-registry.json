@@ -1,0 +1,126 @@
+{
+  "sql": {
+    "types": [
+      "INT",
+      "DECIMAL",
+      "CHAR",
+      "VARCHAR",
+      "TEXT",
+      "DATE",
+      "TIME",
+      "DATETIME"
+    ],
+    "constraints": [
+      "NOT NULL",
+      "DEFAULT",
+      "CHECK",
+      "PRIMARY KEY",
+      "UNIQUE",
+      "FOREIGN KEY",
+      "REFERENCES",
+      "ON UPDATE CASCADE",
+      "ON DELETE CASCADE"
+    ],
+    "structure": [
+      "CREATE DATABASE",
+      "DROP DATABASE",
+      "CREATE TABLE",
+      "ALTER TABLE ... ADD",
+      "ALTER TABLE ... DROP",
+      "ALTER TABLE ... ALTER",
+      "MODIFY (variante admise)",
+      "RENAME / CHANGE (renommage colonne)",
+      "ADD CONSTRAINT",
+      "DROP CONSTRAINT",
+      "ENABLE/DISABLE CONSTRAINT (syntaxe scolaire à distinguer du SGBD)",
+      "DROP TABLE"
+    ],
+    "dml": [
+      "INSERT INTO ... VALUES",
+      "UPDATE ... SET ... WHERE",
+      "DELETE FROM ... WHERE"
+    ],
+    "select": [
+      "SELECT",
+      "DISTINCT",
+      "AS",
+      "FROM",
+      "WHERE",
+      "GROUP BY",
+      "HAVING",
+      "ORDER BY ASC/DESC"
+    ],
+    "operators": [
+      "=",
+      "<>",
+      ">",
+      "<",
+      ">=",
+      "<=",
+      "IN",
+      "BETWEEN",
+      "LIKE",
+      "IS",
+      "AND",
+      "OR",
+      "NOT"
+    ],
+    "date_functions": [
+      "DATE",
+      "DAY",
+      "MONTH",
+      "YEAR",
+      "NOW",
+      "ADDDATE",
+      "DATEDIFF"
+    ],
+    "aggregates": [
+      "AVG",
+      "COUNT",
+      "MAX",
+      "MIN",
+      "SUM"
+    ],
+    "subqueries": {
+      "allowed": "non-correlated only",
+      "location": "WHERE only"
+    },
+    "joins": {
+      "core_style": "FROM table1, table2 ... WHERE pk=fk",
+      "not_core": [
+        "JOIN ... ON"
+      ]
+    },
+    "mysql_practice": [
+      "AUTO_INCREMENT"
+    ]
+  },
+  "web": {
+    "html_events": [
+      "onkeydown",
+      "onkeyup",
+      "onmouseover",
+      "onmouseout",
+      "onplay",
+      "onpause"
+    ],
+    "css_filters": [
+      "blur",
+      "grayscale",
+      "invert"
+    ],
+    "css_units": [
+      "px",
+      "%"
+    ],
+    "javascript_dom": [
+      "getElementById",
+      "getElementsByName",
+      "innerHTML",
+      "selectedIndex",
+      "play",
+      "pause"
+    ],
+    "php_database": "MySQLi procedural"
+  }
+}

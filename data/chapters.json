@@ -1,0 +1,90 @@
+[
+  {
+    "id": "bdr",
+    "order": 1,
+    "title": "Bases de données relationnelles",
+    "status": "validated",
+    "pages": 20,
+    "view_url": "https://www.canva.com/d/-g-ArySdXGMEe08",
+    "series": "bdr-25",
+    "course_url": "cours/bdr.html",
+    "summary": "Cours complet Web disponible : notions fondamentales, clés, représentations, contraintes, validation et correction d’une BDR."
+  },
+  {
+    "id": "ldd",
+    "order": 2,
+    "title": "Création et manipulation de la structure d’une BDR",
+    "status": "validated",
+    "pages": 48,
+    "view_url": "https://www.canva.com/d/Pwlzwo6Y6t06lVO",
+    "series": "ldd-25",
+    "course_url": null,
+    "summary": "Cours Canva validé sur la création et l’évolution de la structure d’une BDR."
+  },
+  {
+    "id": "lmd",
+    "order": 3,
+    "title": "Manipulation des données — INSERT / UPDATE / DELETE",
+    "status": "draft-reviewed",
+    "pages": 7,
+    "view_url": "https://www.canva.com/d/VjEAoq54UgWomnW",
+    "series": "lmd-42-2tp",
+    "course_url": null,
+    "summary": "Support INSERT / UPDATE / DELETE audité et corrigé en brouillon."
+  },
+  {
+    "id": "select",
+    "order": 4,
+    "title": "Interroger une BDR en SQL",
+    "status": "draft-reviewed",
+    "pages": 37,
+    "view_url": "https://www.canva.com/d/uG_NuX-egio-5N4",
+    "series": "lmd-42-2tp",
+    "course_url": null,
+    "summary": "Support d’interrogation SQL audité : filtres, dates, agrégats, HAVING, jointures et sous-requêtes."
+  },
+  {
+    "id": "html",
+    "order": 5,
+    "title": "HTML5",
+    "status": "planned",
+    "pages": null,
+    "view_url": null,
+    "series": null,
+    "course_url": null,
+    "summary": "Chapitre à auditer et construire selon l’annexe officielle."
+  },
+  {
+    "id": "css",
+    "order": 6,
+    "title": "CSS3",
+    "status": "planned",
+    "pages": null,
+    "view_url": null,
+    "series": null,
+    "course_url": null,
+    "summary": "Chapitre à auditer et construire selon l’annexe officielle."
+  },
+  {
+    "id": "js",
+    "order": 7,
+    "title": "JavaScript / DOM",
+    "status": "planned",
+    "pages": null,
+    "view_url": null,
+    "series": null,
+    "course_url": null,
+    "summary": "Chapitre à auditer et construire selon l’annexe officielle."
+  },
+  {
+    "id": "php",
+    "order": 8,
+    "title": "PHP / MySQLi procédural",
+    "status": "planned",
+    "pages": null,
+    "view_url": null,
+    "series": null,
+    "course_url": null,
+    "summary": "Chapitre à auditer et construire selon l’annexe officielle."
+  }
+]

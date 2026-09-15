@@ -1,0 +1,34 @@
+[
+  {
+    "id": "aid-2024",
+    "level": "P1/P2",
+    "title": "Aides pédagogiques d’Informatique — Section Sciences de l’informatique — 2024-2025",
+    "url": "https://www.edunet.tn/ressources/pedagogie/programmes/2024_2025/aide_infoAnnexe_ScInfo.pdf",
+    "authority": "Edunet / Ministère de l’Éducation",
+    "role": "Référence détaillée STI 4SI"
+  },
+  {
+    "id": "portal-min",
+    "level": "P1",
+    "title": "Programmes officiels — Ministère de l’Éducation",
+    "url": "https://education.gov.tn/?lang=fr&p=500",
+    "authority": "Ministère de l’Éducation",
+    "role": "Portail officiel"
+  },
+  {
+    "id": "portal-edunet",
+    "level": "P1",
+    "title": "Programmes officiels — Edunet",
+    "url": "https://www.edunet.tn/index.php?id=1662&lan=2",
+    "authority": "Edunet",
+    "role": "Portail officiel"
+  },
+  {
+    "id": "old-2011",
+    "level": "P2 historique",
+    "title": "Programme informatique secondaire 2011",
+    "url": "https://www.edunet.tn/ressources/pedagogie/programmes/nouveaux_programme2011/secondaire/info.pdf",
+    "authority": "Edunet",
+    "role": "Historique / comparaison seulement"
+  }
+]

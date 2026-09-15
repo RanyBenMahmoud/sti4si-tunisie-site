@@ -1,0 +1,23 @@
+[
+  {
+    "id": "bdr-25",
+    "title": "Série BDR — 25 exercices",
+    "chapter": "bdr",
+    "status": "validated",
+    "method": "QCM + Oui/Non + graphique↔textuel + contraintes + anomalies + évolution BDR"
+  },
+  {
+    "id": "ldd-25",
+    "title": "Série LDD — 25 exercices",
+    "chapter": "ldd",
+    "status": "validated",
+    "method": "modèle Word Rani ; énoncés métier sans souffler les clauses SQL"
+  },
+  {
+    "id": "lmd-42-2tp",
+    "title": "LMD + requêtes — 42 exercices + 2 TP",
+    "chapter": "lmd",
+    "status": "validated",
+    "method": "Festival + Transport ; 42 exercices écrits sans LDD + 2 TP machine"
+  }
+]

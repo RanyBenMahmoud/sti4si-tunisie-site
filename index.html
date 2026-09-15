@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Référentiel pédagogique STI 4SI Tunisie — programme, cours, séries et règles d'audit.">
+  <title>STI 4SI Tunisie — Référentiel</title>
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><span class="brand-mark">4SI</span><div><strong>STI Tunisie</strong><small>Référentiel pédagogique — Rani Ben Mahmoud</small></div></div>
+    <button id="menuBtn" class="menu-btn" aria-label="Ouvrir le menu">☰</button>
+    <nav id="nav"><a href="#dashboard">Accueil</a><a href="#chapters">Cours</a><a href="#series">Séries</a><a href="#programme">Programme</a><a href="#syntax">Syntaxe</a><a href="#sources">Sources</a><a href="#audit">Audit</a></nav>
+  </header>
+
+  <main>
+    <section id="dashboard" class="hero section">
+      <div class="hero-copy">
+        <span class="eyebrow">4ème Sciences de l’Informatique · Tunisie</span>
+        <h1>Un seul dépôt pour le programme, les cours, les séries et les décisions validées.</h1>
+        <p>Ce site est le miroir pédagogique du dépôt Git <code>sti4si-reference</code>. Il distingue explicitement ce qui est validé, audité en brouillon et encore à construire.</p>
+        <div class="hero-actions"><a class="btn primary" href="cours/bdr.html">Ouvrir le chapitre 1 complet</a><a class="btn" href="#chapters">Voir tous les chapitres</a><a class="btn" href="#syntax">Syntaxe de référence</a></div>
+      </div>
+      <aside class="hero-card"><div class="status-dot"></div><strong>Règle de gouvernance</strong><p>Programme officiel &gt; annexes &gt; sujets officiels &gt; productions pédagogiques.</p><small>Ne rien inventer. Prouver avant de valider.</small></aside>
+    </section>
+
+    <section class="stats section" id="stats"></section>
+
+    <section id="chapters" class="section">
+      <div class="section-head"><div><span class="eyebrow">Cours</span><h2>Progression STI 4SI</h2></div><p>Chaque carte expose le statut réel du support et ses liens Canva.</p></div>
+      <div id="chaptersGrid" class="grid cards"></div>
+    </section>
+
+    <section id="series" class="section alt">
+      <div class="section-head"><div><span class="eyebrow">Séries & TP</span><h2>Supports d’entraînement validés</h2></div><p>Les énoncés ne soufflent pas la notion à découvrir. Les corrigés conservent le raisonnement et les validations.</p></div>
+      <div id="seriesGrid" class="grid cards"></div>
+    </section>
+
+    <section id="programme" class="section">
+      <div class="section-head"><div><span class="eyebrow">Programme</span><h2>Périmètre officiel mémorisé</h2></div></div>
+      <div class="two-col">
+        <article class="panel"><h3>Gestion de données</h3><ul><li>BD, SGBD, BDR ; tables, relations, enregistrements, champs.</li><li>Contraintes de table, domaine et référentielle.</li><li>Graphique ↔ textuel ; correction de représentations erronées.</li><li>Structure SQL, manipulation des données, interrogation.</li><li>Jointures et sous-requêtes non corrélées dans <code>WHERE</code>.</li></ul></article>
+        <article class="panel"><h3>Systèmes, technologies et Internet</h3><ul><li>HTML5 et formulaires.</li><li>CSS3 : sélecteurs, box model, transformations, filtres, transitions, animations.</li><li>JavaScript : structures, DOM, validation, String/Math/Date/Array.</li><li>PHP : GET/POST, tableaux, fonctions, MySQLi procédural, CRUD.</li></ul></article>
+      </div>
+    </section>
+
+    <section id="syntax" class="section dark">
+      <div class="section-head light"><div><span class="eyebrow">Syntaxe de référence</span><h2>Ce qu’un futur agent ne doit pas dépasser</h2></div></div>
+      <div id="syntaxGrid" class="syntax-grid"></div>
+    </section>
+
+    <section id="sources" class="section alt">
+      <div class="section-head"><div><span class="eyebrow">Preuves</span><h2>Sources officielles et traçabilité</h2></div><p>Une source inaccessible n’est jamais remplacée silencieusement par une affirmation.</p></div>
+      <div id="sourcesList" class="source-list"></div>
+    </section>
+
+    <section id="audit" class="section">
+      <div class="section-head"><div><span class="eyebrow">Inspecteur-pédagogue</span><h2>Protocole d’audit permanent</h2></div></div>
+      <div class="audit-steps"><div><b>1</b><span>Périmètre officiel</span></div><div><b>2</b><span>Terminologie</span></div><div><b>3</b><span>Exactitude scientifique</span></div><div><b>4</b><span>Syntaxe</span></div><div><b>5</b><span>Pédagogie</span></div><div><b>6</b><span>Cohérence</span></div><div><b>7</b><span>Évaluation réelle</span></div></div>
+      <div class="notice"><strong>Méthode de reconstruction :</strong> conserver → corriger → compléter → harmoniser → valider.</div>
+    </section>
+  </main>
+
+  <footer><strong>STI 4SI Tunisie</strong><span>Référentiel indépendant — non officiel — construit à partir des sources ministérielles documentées.</span><span id="buildDate"></span></footer>
+  <script src="js/app.js"></script>
+</body>
+</html>
